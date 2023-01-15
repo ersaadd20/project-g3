@@ -160,3 +160,36 @@ a:hover {
 .ul {
   display: flex;
 }
+.title {
+  /* position: absolute; */
+  width: 862px;
+  height: 225px;
+  left: 529px;
+  top: 205px;
+
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  /* line-height: 75px; */
+  text-align: center;
+}
+.btn {
+  margin-left: 300px;
+  padding: 20px 30px;
+  background: #ff900e;
+  border-radius: 8px;
+  justify-items: center;
+
+  left: 130px;
+  top: 300px;
+}
+.container {
+  position: absolute;
+}
+.para {
+  size: 16px;
+}
+.img {
+  width: 70%;
+}
