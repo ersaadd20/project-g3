@@ -164,6 +164,51 @@ a:hover {
   border-radius: 8px;
   justify-items: center;
 }
+.feature {
+  font-size: xx-large;
+  font-weight: bold;
+}
+.ico img {
+  margin-left: 30px;
+}
+.ico h1 {
+  margin-left: 40px;
+}
+.icon-border {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  margin-top: 20px;
+  padding: 40px;
+}
+.spon {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+}
+.sp {
+  margin-left: 500px;
+}
+.brands {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-gap: 1rem;
+}
+
+.brands__item {
+  background: #eee;
+}
+
+.brands__item img {
+  display: block;
+  max-width: 100%;
+}
+.cap {
+  text-align: center;
+  background-color: #fff4e7;
+  width: 100%;
+  padding: 20px 10px;
+}
 
 .para {
   size: 16px;
@@ -189,6 +234,10 @@ a:hover {
 .third-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.third-section img {
+  width: 50%;
 }
 
 .second-section-left {
@@ -227,46 +276,3 @@ a:hover {
 /* third section */
 
 /* media query */
-@media only screen and (max-width: 700px) {
-  .nav-links,
-  .cta {
-    display: none;
-    transition: all 0.5s ease;
-  }
-  .menu {
-    display: flex;
-    transition: all 0.5s ease;
-  }
-  .menu:hover > .nav-mobile {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    list-style: none;
-    transition: all 0.5s ease;
-    width: 100vw;
-  }
-
-  .dropdown:hover > ul {
-    position: relative;
-    background-color: transparent;
-  }
-  .nav-mobile li {
-    margin: 8px 0;
-  }
-
-  .top-img {
-    padding: 0 10%;
-  }
-
-  /* second section */
-  .second-section {
-    grid-template-columns: 1fr;
-  }
-  .second-section-left {
-    grid-template-columns: 1fr;
-  }
-}
